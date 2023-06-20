@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: rgb(213, 214, 214);
+  padding: 2rem;
+  /* pra alinhar item dentro do main no center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  position: relative;
+  width: 430px; /* 1020px */
+  height: 540px;
+  background-color: white;
+  border-radius: 3.3rem;
+  box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.164);
+}
+
+.inner-box {
+  position: absolute;
+  width: calc(100% - 4.1rem);
+  height: calc(100% - 4.1rem);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.inner-fundo{
+  min-width:500px;
+}
+.forms-wrap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  max-width: 360px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.heading h2 {
+  font-size: 1.7rem;
+  /* 2.1 vou colocar pra 1.7 */
+  font-weight: 600;
+  color: black;
+}
+
+
+
+/* 
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+.input-wrap {
+/* video adicionar olho  */
+display: flex;
+align-items: center;
+/*  */
+
+  position: relative;
+  height: 37px;
+  margin-bottom: 2rem;
+}
+
+/* video adicionar olho  */
+.input-wrap img{
+  position: absolute ;
+  right: 1%;
+  width: 25px;
+  cursor: pointer;
+
+}
+/* teste vou aidiconar 
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.input-field {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #bbb;
+  padding: 0;
+  font-size: 0.95rem;
+  color: black;
+  transition: 0.5s;
+}
+
+label {
+  /* display: none; */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.95rem;
+  color: #bbb;
+  pointer-events: none;
+}
+
+.input-field.active {
+  border-bottom-color: black;
+}
+
+.sign-btn {
+  display: inline-block;
+  width: 100%;
+  height: 45px;
+  background: black;
+  color: white;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  margin-top: 2rem;
+  transition: 0.4s;
+}
+.sign-btn:hover {
+  background-color: rgb(253, 96, 96);
+}
+
+/* asdfasdfasdfasdfadf */
+.pop{
+  
+  z-index: 10;
+  position: absolute;
+  background-color:  rgb(255, 68, 68);
+  width: 400px;
+  height: 100px;
+  border-radius: 11px;
+  top: 40%;
+  right: 98%;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.164);
+
+}
+
+.pop:hover{
+ background-color: rgb(253, 96, 96); 
+  transform: translateX(240px);
+  transition: transform 450ms;
+}
+.pop:not(:hover){
+  transition: transform 450ms;
+}
+.inner-pop h2{
+  font-size: 1em;
+  color: white;
+  padding  : 20px;
+  margin-left: 120px;
+}
+
+@media (max-width: 540px){
+  .pop{  
+    top: 3%;
+    right: 94.8%;}
+}
