@@ -234,10 +234,14 @@ header ul li:hover a {
   color: white;
 }
 
-.alink{
+.alink {
 text-decoration: none;
 color: white;
 } 
+
+a{
+  text-decoration: none;
+}
 
 .serviceBx a {
   text-decoration: none;
