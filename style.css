@@ -357,6 +357,11 @@ i {
 }
 
 @media (max-width: 1266px) {
+
+.content h2 {
+  font-size: 4.4rem;
+}
+
   #sobre .MulherFrontImagem {
     max-width: 380px;
 
@@ -592,13 +597,21 @@ margin-left: 5.5px;
 
 /* 19.11.2023 10:05 #mudanca */
   #sobre .content h2 {
-    font-size: 3.3rem;
+    font-size: 2.8rem;
     
   } 
   
   .btn {
     margin-left: 6px;
   }
+
+  #contato .social_icon .gif {
+    width: 50px;
+
+  }
+  #contato img {
+    width: 35px;
+
 /* 
 
 */
@@ -632,15 +645,17 @@ margin-left: 5.5px;
   }
 }
 @media (max-width: 422px) {
+
+ 
+
   #sobre .MulherFrontImagem {
     top: 75%;
   }
+
 }
 @media (max-width: 402px) {
 /*#mudanca coloque 2,8 n tinha antes */
-  .content .h2 {
-    font-size: 2.8rem;
-  }
+
 
   #sobre {
     min-height: 870px;
