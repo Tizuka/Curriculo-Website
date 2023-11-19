@@ -329,7 +329,7 @@ i {
 #contato .social_icon .gif {
   filter: invert(0%) sepia(100%) saturate(10%) hue-rotate(124deg)
     brightness(100%) contrast(380%);
-  width: 50px;
+  width: 60px;
   padding-bottom: 4px;
 }
 #contato .social_icon li {
@@ -340,7 +340,7 @@ i {
   color: #d83636;
 }
 #contato img {
-  width: 35px;
+  width: 45px;
   /* height: 55px; */
 }
 .github {
@@ -376,6 +376,12 @@ i {
     text-align: center;
     font-size: 30px;
   }
+  /*#mudanca .content .btn{
+margin-left: 5px;
+} */
+  .content .btn{
+    margin-left: 7.5px;
+    }
 
   .mockcup-inner-p p {
     width: 400px;
@@ -505,7 +511,12 @@ i {
   #sobre .MulherFrontImagem {
     max-width: 380px;
   }
-
+  /*#mudanca .content .btn{
+margin-left: 5px;
+}  */
+.content .btn{
+margin-left: 5.5px;
+}
   #sobre .content p {
     font-size: large;
   }
@@ -519,7 +530,6 @@ i {
   }
   .serviceBx {
     margin: 3px 30px;
-    /* n sei */
   }
 
   .imagem-celular {
@@ -528,7 +538,6 @@ i {
   }
   .mockup-image {
     text-align: center;
-    /*  */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -554,7 +563,6 @@ i {
   .btn-mockup {
     margin: auto;
     max-width: 110px;
-    /* padding: 10px 30px; */
     letter-spacing: 0.05em;
   }
 }
@@ -572,7 +580,7 @@ i {
 /* 19.11.2023 10:05 #mudanca */
 
   #sobre .content h2 {
-    font-size: 3.5em;
+    font-size: 3.3em;
   }
   #Projetinhos .content {
     grid-template-columns: repeat(1, 1fr);
@@ -584,7 +592,7 @@ i {
 
 /* 19.11.2023 10:05 #mudanca */
   #sobre .content h2 {
-    font-size: 3.4rem;
+    font-size: 3.3rem;
     
   } 
   
@@ -598,7 +606,6 @@ i {
     position: absolute;
     max-width: 380px;
     top: 73%;
-    /* 67*/
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -606,7 +613,6 @@ i {
   .mockcup-inner-p p {
     font-size: 15px;
     width: 290px;
-    /* adicionado */
     padding: 10px;
   }
 
@@ -631,6 +637,11 @@ i {
   }
 }
 @media (max-width: 402px) {
+/*#mudanca coloque 2,8 n tinha antes */
+  .content .h2 {
+    font-size: 2.8rem;
+  }
+
   #sobre {
     min-height: 870px;
   }
