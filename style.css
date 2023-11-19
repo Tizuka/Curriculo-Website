@@ -569,8 +569,10 @@ i {
   .mockup-content h2 {
     padding: 40px;
   }
+/* 19.11.2023 10:05 #mudanca */
+
   #sobre .content h2 {
-    font-size: 3em;
+    font-size: 3.5em;
   }
   #Projetinhos .content {
     grid-template-columns: repeat(1, 1fr);
@@ -578,6 +580,20 @@ i {
 }
 
 @media (max-width: 602px) {
+
+
+/* 19.11.2023 10:05 #mudanca */
+  #sobre .content h2 {
+    font-size: 3.4rem;
+    
+  } 
+  
+  .btn {
+    margin-left: 6px;
+  }
+/* 
+
+*/
   #sobre .MulherFrontImagem {
     position: absolute;
     max-width: 380px;
