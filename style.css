@@ -612,6 +612,13 @@ margin-left: 5.5px;
   #contato img {
     width: 35px;
 
+    .imagem-celular{
+      width: 283  px;
+    }
+
+    #Projetinhos .content .serviceBx img {
+      max-width: 65px;
+    }
 /* 
 
 */
@@ -629,9 +636,7 @@ margin-left: 5.5px;
     padding: 10px;
   }
 
-  #Projetinhos .content .serviceBx img {
-    max-width: 65px;
-  }
+
   #Projetinhos .content .serviceBx h3 {
     font-size: 1rem;
   }
@@ -646,7 +651,9 @@ margin-left: 5.5px;
 }
 @media (max-width: 422px) {
 
- 
+  #Projetinhos .content .serviceBx img {
+    max-width: 55px;
+  }
 
   #sobre .MulherFrontImagem {
     top: 75%;
@@ -655,7 +662,9 @@ margin-left: 5.5px;
 }
 @media (max-width: 402px) {
 /*#mudanca coloque 2,8 n tinha antes */
-
+#Projetinhos .content .serviceBx img {
+  max-width: 50px;
+}
 
   #sobre {
     min-height: 870px;
