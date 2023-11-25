@@ -108,7 +108,9 @@ header ul li:hover a {
   padding-left: 10px;
   font-size: 6em;
   color: #e74646;
+  /* color: #902EBB; */
   font-family: "Satisfy", cursive;
+  /* font-family: "Creepster"; */
 }
 
 #sobre .content p {
@@ -513,6 +515,11 @@ margin-left: 5px;
   }
 }
 @media (max-width: 750px) {
+#Projetinhos .content .serviceBx img {
+    width: 88px;
+  }
+
+
   #sobre .MulherFrontImagem {
     max-width: 380px;
   }
@@ -556,7 +563,7 @@ margin-left: 5.5px;
   }
   .mockcup-inner-p p {
     font-size: 17px;
-    width: 400px;
+    width: 360px;
     padding: 10px;
   }
   .mockup-content h2 {
@@ -577,11 +584,13 @@ margin-left: 5.5px;
   }
   #sobre .content p {
     font-size: large;
+  
   }
 
   .mockup-content h2 {
     padding: 40px;
   }
+
 /* 19.11.2023 10:05 #mudanca */
 
   #sobre .content h2 {
@@ -612,11 +621,11 @@ margin-left: 5.5px;
   #contato img {
     width: 35px;
 
-    .imagem-celular{
-      width: 283  px;
+  .imagem-celular{
+      width: 283px;
     }
 
-    #Projetinhos .content .serviceBx img {
+  #Projetinhos .content .serviceBx img {
       max-width: 65px;
     }
 /* 
